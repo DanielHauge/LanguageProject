@@ -2,6 +2,7 @@
 This is a repository for personal learning. The goal is to learn more languages in addition to measuring their speed and comfort level. It includes typical algorithms and some solutions to odd problems in many different languages.
 
 ## Algorithms & problems
+Note: All random numbers have been generated from [Random.org](https://www.random.org/)
 
 ### P1: Does any two values sum to k in a list?
 ###### Description
