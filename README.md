@@ -35,6 +35,7 @@ Note: All random numbers have been generated from [Random.org](https://www.rando
 
 ## Results
 Language/Problem | C# | Java | Golang | Python | Ruby
+-------:|:------:|:-------:|:------:|:-------:|:------:
 Problem 1 | x | 27325ns | x | x | x
 
 ## Conclusion & Discussion
