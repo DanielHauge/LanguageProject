@@ -12,7 +12,7 @@ Given a set of problems to solve by algorithms, how do each language compare in 
 - Coding comfortability
 - Ease in building the algorithm
 
-Runtime speed is the one mainly in focus, as other metrics are kind of subjective.
+Runtime speed is the metric mainly in focus, as other metrics are kind of subjective.
 
 ### Hypothesis
 It is expected that some of the lower level languages such as C and C++ is alot faster. Where as high level languages which has alot of abstraction such as Java or C# might be a little slower. 
