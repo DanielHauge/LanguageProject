@@ -3,7 +3,7 @@ This is a repository for personal learning. The goal is to learn more languages 
 
 ## Algorithms & problems
 
-### Does any two values sum to k in a list?
+### P1: Does any two values sum to k in a list?
 ```
 Given a list of numbers, return whether any two sums to k.
 
