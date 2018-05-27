@@ -7,7 +7,7 @@ First is to build the algorithm, the goal is to construct the algorithms as iden
 ## Algorithms & problems
 Note: All random numbers have been generated from [Random.org](https://www.random.org/)
 
-### P1: Does any two values sum to k in a list?
+- [P1: Does any two values sum to k in a list?](https://github.com/DanielHauge/LanguageSpeed/blob/master/P1Measurements.md)
 
 
 ## Languages
