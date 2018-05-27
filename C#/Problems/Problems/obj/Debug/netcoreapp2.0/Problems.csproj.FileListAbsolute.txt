@@ -1,0 +1,11 @@
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\bin\Debug\netcoreapp2.0\Problems.deps.json
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\bin\Debug\netcoreapp2.0\Problems.runtimeconfig.json
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\bin\Debug\netcoreapp2.0\Problems.runtimeconfig.dev.json
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\bin\Debug\netcoreapp2.0\Problems.dll
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\bin\Debug\netcoreapp2.0\Problems.pdb
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\obj\Debug\netcoreapp2.0\Problems.csprojResolveAssemblyReference.cache
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\obj\Debug\netcoreapp2.0\Problems.csproj.CoreCompileInputs.cache
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\obj\Debug\netcoreapp2.0\Problems.AssemblyInfoInputs.cache
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\obj\Debug\netcoreapp2.0\Problems.AssemblyInfo.cs
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\obj\Debug\netcoreapp2.0\Problems.dll
+C:\Users\Animc\Desktop\Language Speeds\C#\Problems\Problems\obj\Debug\netcoreapp2.0\Problems.pdb
