@@ -23,7 +23,8 @@ First is to build the algorithm, the goal is to construct the algorithms as iden
 ## Algorithms & problems
 Note: All random numbers have been generated from [Random.org](https://www.random.org/)
 
-- [P1: Does any two values sum to k in a list?](https://github.com/DanielHauge/LanguageSpeed/blob/master/P1Measurements.md)
+- [P1: Does any two values sum to k in a list?](https://github.com/DanielHauge/LanguageSpeed/blob/master/P1.md)
+- [P2: Products of array except index](https://github.com/DanielHauge/LanguageSpeed/blob/master/P2.md)
 
 
 ## Languages
