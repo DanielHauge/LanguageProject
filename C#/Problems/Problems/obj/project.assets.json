@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Animc\\Desktop\\Language Speeds\\C#\\Problems\\Problems\\Problems.csproj",
+      "projectUniqueName": "C:\\Users\\Animc\\Desktop\\LanguageSpeed\\C#\\Problems\\Problems\\Problems.csproj",
       "projectName": "Problems",
-      "projectPath": "C:\\Users\\Animc\\Desktop\\Language Speeds\\C#\\Problems\\Problems\\Problems.csproj",
+      "projectPath": "C:\\Users\\Animc\\Desktop\\LanguageSpeed\\C#\\Problems\\Problems\\Problems.csproj",
       "packagesPath": "C:\\Users\\Animc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Animc\\Desktop\\Language Speeds\\C#\\Problems\\Problems\\obj\\",
+      "outputPath": "C:\\Users\\Animc\\Desktop\\LanguageSpeed\\C#\\Problems\\Problems\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
