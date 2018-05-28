@@ -11,6 +11,8 @@ namespace Problems
             Stopwatch sw = new Stopwatch();
             Console.WriteLine("Starting Measurements");
             bool result = false;
+            int[] list = new int[] { 10, 15, 3, 7 };
+            result = p.CanListSumToK(list, 17);
 
             // case 1
             Console.Write("Case 1 - N: 5 = ");
