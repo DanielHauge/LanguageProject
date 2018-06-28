@@ -1,5 +1,11 @@
-mod Problem;
 
-pub fn RunExperiment(p: &dyn Problem){
-    p
+
+
+pub mod Experimenter{
+
+    use Problem1::Problem1::Problem1Struct;
+
+    pub fn RunExperiment(){
+        println!("Experiment");
+    }
 }
