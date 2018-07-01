@@ -1,16 +1,29 @@
-mod Problem;
+pub use problem::problem::ProblemTrait;
 
-pub mod Problem1 {
+pub mod problem1 {
 
-    pub struct Problem1Struct{
-        list: i32,
-        k: i16,
-        exp: bool
+    pub struct Problem1Struct {
+        pub list: Vec<i32>,
+        pub k: i32,
+        pub exp: bool
     }
 
-    impl problemTrait for Problem1Struct {
-        fn Calculate(&self) -> bool{
-            return true;
+    use std::collections::HashSet;
+
+    impl super::ProblemTrait for Problem1Struct {
+        fn calculate(&self) -> bool{
+            let mut res = false;
+            let mut set = HashSet::new();
+            for x in self.list.iter(){
+                if set.contains(x){
+                    res = true;
+                    return self.exp==res;
+                } else {
+                    set.insert(self.k-x);
+                }
+
+            }
+            return self.exp==res;
         }
     }
 

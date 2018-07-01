@@ -1,11 +1,9 @@
 
 
-pub mod Problem {
-
-    pub struct ProblemStruct;
+pub mod problem {
 
     pub trait ProblemTrait {
-        fn Calculate(&self) -> bool;
+        fn calculate(&self) -> bool;
     }
 
 
