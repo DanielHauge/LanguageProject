@@ -11,7 +11,7 @@ class Experimenter {
       problem.Calculate()
       val t1 = System.nanoTime()
       val dur = t1-t0
-      measurement.
+      measurement :+ dur
     }
 
 
