@@ -9,7 +9,7 @@ namespace Problems
     class Experimenter
     {
 
-        public void RunExperiment(Problem p)
+        public ExperimentResults RunExperiment(Problem p)
         {
             Console.WriteLine("Running experiments on: "+ p.GetType().Name);
             List<double> meassurements = new List<double>();
@@ -30,16 +30,26 @@ namespace Problems
             }
 
             double[] results = meassurements.ToArray();
-            Console.WriteLine("Median: "+Math.Round(Median(results))+"ns");
-            Console.WriteLine("Average: "+Math.Round(Average(results))+"ns");
-            Console.WriteLine();
 
+            return new ExperimentResults(p.GetType().Name, results, Average(results), Median(results), High(results), Low(results));
         }
 
         private static double Median(double[] durs)
         {
             Array.Sort(durs);
             return durs[durs.Length / 2];
+        }
+
+        private static double High(double[] durs)
+        {
+            Array.Sort(durs);
+            return durs[durs.Length - 1];
+        }
+
+        private static double Low(double[] durs)
+        {
+            Array.Sort(durs);
+            return durs[0];
         }
 
         private static double Average(double[] durs)
