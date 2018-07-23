@@ -149,12 +149,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Experimenter.h" />
+    <ClInclude Include="ExperimentResults.h" />
     <ClInclude Include="Problem.h" />
     <ClInclude Include="Problem1.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ExperimentResults.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Experimenter.cpp" />
     <ClCompile Include="Problem.cpp" />

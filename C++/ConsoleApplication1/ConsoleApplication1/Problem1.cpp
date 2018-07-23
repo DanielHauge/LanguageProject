@@ -12,6 +12,7 @@ Problem1::~Problem1()
 
 bool Problem1::Calculate()
 {
+	
 	unordered_set<int> set;
 	for (int num : this->list) {
 		if (set.find(num) != set.end()) {
@@ -21,6 +22,8 @@ bool Problem1::Calculate()
 		
 	}
 	
-	return false;
+	
+	
+	return true;
 }
 

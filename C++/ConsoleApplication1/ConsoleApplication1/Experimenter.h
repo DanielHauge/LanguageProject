@@ -2,6 +2,7 @@
 
 #include "Problem.h"
 #include <list>
+#include "ExperimentResults.h"
 
 using namespace std;
 
@@ -10,11 +11,14 @@ class Experimenter
 public:
 	Experimenter();
 	~Experimenter();
-	void RunExperiment(Problem &p);
+	ExperimentResults RunExperiment(Problem &p);
+	
 
 
 private:
 	long average(list<long> list);
 	long median(list<long> list);
+	long high(list<long> list);
+	long low(list<long> list);
 };
 

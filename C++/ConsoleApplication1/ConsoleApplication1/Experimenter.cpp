@@ -2,6 +2,7 @@
 #include "Experimenter.h"
 #include <list>
 #include <chrono>
+#include "ExperimentResults.h"
 
 using namespace std;
 
@@ -14,7 +15,7 @@ Experimenter::~Experimenter()
 {
 }
 
-void Experimenter::RunExperiment(Problem &p)
+ExperimentResults Experimenter::RunExperiment(Problem &p)
 {
 	auto ProblemName = typeid(p).name();
 	cout << "Starting Experiment on: " << ProblemName << endl;
@@ -35,8 +36,16 @@ void Experimenter::RunExperiment(Problem &p)
 	}
 	auto med = median(measurements);
 	auto avg = average(measurements);
+	auto highs = high(measurements);
+	auto lows = low(measurements);
+
+	auto result = new ExperimentResults(measurements, ProblemName, avg, med, highs, lows);
+	return *result;
+
+	/*
 	cout << "Median: " << med << "ns" << endl;
 	cout << "Average: " << avg << "ns" << endl << endl;
+	*/
 }
 
 long Experimenter::average(list<long> list) {
@@ -52,3 +61,16 @@ long Experimenter::median(list<long> list) {
 	auto it1 = std::next(list.begin(), list.size() / 2);
 	return *it1;
 }
+
+long Experimenter::high(list<long> list) {
+	list.sort();
+	auto it1 = std::next(list.begin(), list.size() - 1);
+	return *it1;
+}
+
+long Experimenter::low(list<long> list) {
+	list.sort();
+	auto it1 = std::next(list.begin(), 0);
+	return *it1;
+}
+
