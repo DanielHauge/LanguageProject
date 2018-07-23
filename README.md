@@ -30,14 +30,22 @@ Note: All random numbers have been generated from [Random.org](https://www.rando
 
 ## Languages
 - C#
-- Java
+- C++
 - Golang
+- Java
+- JavaScript
+- Kotlin
 - Python
 - Ruby
+- Rust
+- Scala
 
 ## Results
-Language/Problem | C# | Java | Golang | Python | Ruby
--------|:------:|:-------:|:------:|:-------:|:------:
-Problem 1 | x | 27325ns | x | x | x
+Language/Problem | C# | C++ | Golang | Java | JavaScript | Kotlin | Python | Ruby | Rust | Scala
+-------|:------:|:-------:|:------:|:-------:|:------:|:------:|:------:|:------:|:------:|:------:
+Problem 1 | x | 27325ns | x | x | x | x | x | x | x | x
+Problem 2 | x | x | x | x | x | x | x | x | x | x
+Problem 3 | x | x | x | x | x | x | x | x | x | x
+Problem 4 | x | x | x | x | x | x | x | x | x | x
 
 ## Conclusion & Discussion
