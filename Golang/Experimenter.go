@@ -4,10 +4,12 @@ import (
 	"fmt"
 	"time"
 	"sort"
+	"reflect"
 )
 
-func RunExperirment(p Problem){
-	fmt.Println("Running experiment")
+func RunExperirment(p Problem) Results{
+	name := reflect.TypeOf(p).Name()
+	fmt.Println("Running experiment on: "+name)
 	measurements := []int64{}
 	res := false;
 	for i := 0; i<100000; i++ {
@@ -20,9 +22,8 @@ func RunExperirment(p Problem){
 		}
 	}
 
-	fmt.Printf("Median: %v ns\n",Median(measurements))
-	fmt.Printf("Average: %v ns\n\n",Average(measurements))
 	//PrintAll(measurements)
+	return Results{avg:Average(measurements), med:Median(measurements), problemname:name, measurements:measurements, high:High(measurements), low:Low(measurements)}
 
 }
 
@@ -31,6 +32,20 @@ func Median(durs []int64)int64{
 		return durs[i] < durs[j]
 	})
 	return durs[len(durs)/2]
+}
+
+func High(durs []int64)int64{
+	sort.Slice(durs, func(i, j int) bool {
+		return durs[i] < durs[j]
+	})
+	return durs[len(durs)-1]
+}
+
+func Low(durs []int64)int64{
+	sort.Slice(durs, func(i, j int) bool {
+		return durs[i] < durs[j]
+	})
+	return durs[0]
 }
 
 func Average(durs []int64) int64{
