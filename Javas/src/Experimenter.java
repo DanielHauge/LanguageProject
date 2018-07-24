@@ -5,7 +5,7 @@ public class Experimenter {
 
 
 
-    public void RunExperiment(Problem p){
+    public ExperimentResults RunExperiment(Problem p){
         System.out.println("Running experiment on: "+p.getClass().getName());
         ArrayList<Long> meassurements = new ArrayList<>();
         Boolean res;
@@ -22,10 +22,7 @@ public class Experimenter {
         }
 
         Long[] results = meassurements.toArray(new Long[0]);
-        System.out.println("Median: "+ Median(results)+"ns");
-        System.out.println("Average: "+ Average(results)+"ns");
-        System.out.println();
-
+        return new ExperimentResults(p.getClass().getName(), results, Average(results), Median(results), High(results), Low(results));
 
     }
 
@@ -42,5 +39,19 @@ public class Experimenter {
         }
         return total/durations.length;
     }
+
+    private static long High(Long[] durations){
+        Arrays.sort(durations);
+        return durations[durations.length-1];
+    }
+
+    private static long Low(Long[] durations){
+        Arrays.sort(durations);
+        return durations[0];
+    }
+
+
+
+
 
 }
