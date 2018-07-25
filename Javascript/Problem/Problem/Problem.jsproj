@@ -73,6 +73,9 @@
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
     <Content Include="js\Problem1.js" />
+    <Content Include="js\Problem2.js" />
+    <Content Include="js\Problem3.js" />
+    <Content Include="js\Results.js" />
     <None Include="Problem_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

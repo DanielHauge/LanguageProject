@@ -14,5 +14,5 @@ Problem1.prototype.Calculate = function () {
         }
         set.add(this.k - element);
     });
-    return res;
+    return res === exp;
 }
