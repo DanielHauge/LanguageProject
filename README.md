@@ -25,7 +25,7 @@ Note: All random numbers have been generated from [Random.org](https://www.rando
 
 - [P1: Does any two values sum to k in a list?](https://github.com/DanielHauge/LanguageSpeed/blob/master/P1.md)
 - [P2: Products of array except index](https://github.com/DanielHauge/LanguageSpeed/blob/master/P2.md)
-- [P3: First missing integer in a linear time and constant space](https://github.com/DanielHauge/LanguageSpeed/blob/master/P3.md)
+- [P3: First missing integer in a linear time](https://github.com/DanielHauge/LanguageSpeed/blob/master/P3.md)
 
 
 ## Languages
