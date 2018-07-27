@@ -39,6 +39,7 @@ Note: All random numbers have been generated from [Random.org](https://www.rando
 - Ruby
 - Rust
 - Scala
+- Dart
 
 
 ## Conclusion & Discussion
