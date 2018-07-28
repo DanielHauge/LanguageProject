@@ -8,6 +8,7 @@
 
 
 
+
 class Problem1 implements Problem
 {
 
@@ -25,6 +26,19 @@ class Problem1 implements Problem
 
     public function Calculate()
     {
+        $res = false;
+        $set = array();
+        foreach ($this->list as $value){
+            if (isset($set[$value])){
+                $res = true;
+                return $res == $this->exp;
+            }else{
+                $complement = $this->k-$value;
+                $set[$complement] = true;
+            }
+        }
+
+        return $this->k==$res;
 
     }
 }
