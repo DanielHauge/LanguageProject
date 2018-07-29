@@ -33,7 +33,7 @@ The measurements will be aggregated into: Average, Median, Highest runtime and L
 ## Algorithms & problems
 Note: All random numbers have been generated from [Random.org](https://www.random.org/), and all problems are from [Dailycodingproblem.com](https://www.dailycodingproblem.com/).
 
-- **NOTE:** All measurements has been done with the IDE for testing -> measurements does n
+- **NOTE:** All measurements has been done with the IDE for testing -> measurements is only estimate for now. (Which compiler has most debugging overhead).
 
 - [P1: Does any two values sum to k in a list?](https://github.com/DanielHauge/LanguageSpeed/blob/master/P1.md)
 - [P2: Products of array except index](https://github.com/DanielHauge/LanguageSpeed/blob/master/P2.md)
