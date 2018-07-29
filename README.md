@@ -28,6 +28,8 @@ Each problem will get 3 or more cases to test different inputs and different siz
 
 The measurements will be aggregated into: Average, Median, Highest runtime and Lowest runtime. Then aggregated even further to combine all cases for a problem. ie. Average of Averages, Average of Median etc.
 
+All experiments will be run compiled(__**if able__**) in an isolated enviroment. Preferably in a docker container on a virtual machine with pre-defined specification.
+
 - **NOTE**: The procedures are very influenced by OOP(Object oriented programming), therefor it can skewer the results towards favoring languages with good OOP support.
 
 ## Algorithms & problems
