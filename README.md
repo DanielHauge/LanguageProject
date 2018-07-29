@@ -14,9 +14,9 @@ Given a set of problems to solve by algorithms, how do each language compare in 
 
 Runtime speed is the metric mainly in focus, as other metrics are kind of subjective.
 
-### Hypothesis
 **__Note:__** Comparing speeds of languages doesn't realy make sense, but comparing the compilers and available standard libraries and idioms of a language is relevant. When referencing the language, what it realy means is the compilers and libraries and idioms of that language, not the language itself. [Why?](https://stackoverflow.com/a/686617)
 
+### Hypothesis
 Some of the lower level languages such as C and C++ is alot faster, but harder to implement correctly or even implement at all. Where as high level languages which has alot of abstraction such as Java or C# will be a little slower but very straight forward to implement. Each language has it's strenghs and weaknesses, and are built for different purposes. Allthough many claims to be "General-Purpose", each language still has it's intended uses where it's strong and will outcompete other languages. 
 
 Older languages is expected to have rich standard libraries having been nurtered over many years, where as newer languages might fall short. However, in some situations newer languages might actully provide better solutions than older ones because of the "Band-aid" fixes some languages has come to use because of the shortcommings of new innovative ideas in newer languages. This extends to documentation and tutorials aswell.
