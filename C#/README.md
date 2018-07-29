@@ -7,7 +7,7 @@ High level language from microsoft. [Wiki](https://en.wikipedia.org/wiki/C_Sharp
 C# is a general-purpose object oriented programming language with the main purpose for building applications for windows. It is a fairly wide known and used language.
 
 ## Run-time Speed:
-
+To be specified
 
 ## Coding comfortability
 It is very comfy to code in C#. It is very easy to write code that is structured and is not confusing to understand, unless given effort to complicate unjustifiable. Furthermore, the community is quite big and inspiration and help is easy to find, e.g. StackOverflow.
